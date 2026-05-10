@@ -9,7 +9,7 @@ const founders = [
     role: "Founder & CEO",
     expertise: "Growth Strategy & Meta Ads",
     bio: "Former performance marketer at a Top 10 digital agency who scaled over $20M in ad spend with consistent 4–6x ROAS. Adnan founded DIGITALIZEU with a singular mission: make enterprise-level growth systems accessible to ambitious brands of all sizes.",
-    image: "https://adnan-affiliate-web.vercel.app/img/adnan%20sir.jpg",
+    image: "https://flybitfalcon.com/wp-content/uploads/2025/04/Picsart_25-04-01_12-25-41-366-e1743514534437-847x1024.jpg",
     socials: { linkedin: "#", instagram: "#", email: "zaid@digitalizeu.com" },
     achievements: ["$20M+ Ad Spend Managed", "4–6x Average ROAS", "200+ Brands Scaled"],
     gradient: "from-blue-600 to-cyan-500",
