@@ -247,7 +247,7 @@ const VideoShowcase = () => {
               prevEl: ".video-prev",
             }}
             autoplay={{ delay: 4000, disableOnInteraction: false, pauseOnMouseEnter: true }}
-            loop={true}
+            loop={false}
           >
             {videos.slice(1).map((video, i) => (
               <SwiperSlide key={i}>

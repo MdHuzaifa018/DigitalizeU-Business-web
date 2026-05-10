@@ -1,12 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion, useSpring, useMotionValue } from "framer-motion";
+import { useTheme } from "next-themes";
 
 export default function CustomCursor() {
   const [isHovering, setIsHovering] = useState(false);
   const [isClicking, setIsClicking] = useState(false);
   const [isText, setIsText] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const { resolvedTheme } = useTheme();
 
   const cursorX = useMotionValue(-100);
   const cursorY = useMotionValue(-100);
@@ -69,11 +71,11 @@ export default function CustomCursor() {
           height: isHovering ? 48 : isText ? 24 : 36,
           borderRadius: isText ? "4px" : "50%",
           backgroundColor: isHovering
-            ? "rgba(var(--primary-rgb), 0.08)"
-            : "transparent",
+            ? `rgba(${resolvedTheme === "dark" ? "59, 130, 246" : "37, 99, 235"}, 0.08)`
+            : `rgba(${resolvedTheme === "dark" ? "59, 130, 246" : "37, 99, 235"}, 0)`,
           borderColor: isHovering
-            ? "rgba(var(--primary-rgb), 0.6)"
-            : "rgba(var(--primary-rgb), 0.35)",
+            ? `rgba(${resolvedTheme === "dark" ? "59, 130, 246" : "37, 99, 235"}, 0.6)`
+            : `rgba(${resolvedTheme === "dark" ? "59, 130, 246" : "37, 99, 235"}, 0.35)`,
           borderWidth: "1.5px",
           scale: isClicking ? 0.85 : 1,
         }}

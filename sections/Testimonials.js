@@ -192,7 +192,7 @@ const Testimonials = () => {
               bulletActiveClass: "swiper-bullet-active",
             }}
             autoplay={{ delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true }}
-            loop={true}
+            loop={false}
             className="pb-16"
           >
             {testimonials.map((t, i) => (

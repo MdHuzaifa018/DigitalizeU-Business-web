@@ -5,22 +5,22 @@ import { Button } from "@/components/ui/Button";
 
 const founders = [
   {
-    name: "Zaid Khan",
+    name: "Mr. Adnan Qureshi",
     role: "Founder & CEO",
     expertise: "Growth Strategy & Meta Ads",
-    bio: "Former performance marketer at a Top 10 digital agency who scaled over $20M in ad spend with consistent 4–6x ROAS. Zaid founded DIGITALIZEU with a singular mission: make enterprise-level growth systems accessible to ambitious brands of all sizes.",
-    image: "https://i.pravatar.cc/400?u=zaid-khan",
+    bio: "Former performance marketer at a Top 10 digital agency who scaled over $20M in ad spend with consistent 4–6x ROAS. Adnan founded DIGITALIZEU with a singular mission: make enterprise-level growth systems accessible to ambitious brands of all sizes.",
+    image: "https://adnan-affiliate-web.vercel.app/img/adnan%20sir.jpg",
     socials: { linkedin: "#", instagram: "#", email: "zaid@digitalizeu.com" },
     achievements: ["$20M+ Ad Spend Managed", "4–6x Average ROAS", "200+ Brands Scaled"],
     gradient: "from-blue-600 to-cyan-500",
     years: "8 Years Experience",
   },
   {
-    name: "Aria Patel",
+    name: "Mr. Aryan Kumar",
     role: "Co-Founder & Head of Automation",
     expertise: "CRM Systems & Marketing Automation",
-    bio: "Automation architect and CRM specialist who spent 6 years building sales infrastructure for SaaS companies. Aria leads DIGITALIZEU's technology stack — designing the intelligent systems that let our clients scale without scaling their workload.",
-    image: "https://i.pravatar.cc/400?u=aria-patel",
+    bio: "Automation architect and CRM specialist who spent 6 years building sales infrastructure for SaaS companies. Aryan leads DIGITALIZEU's technology stack — designing the intelligent systems that let our clients scale without scaling their workload.",
+    image: "https://monetizeu.in/public/assets/featured-card-1.jpeg",
     socials: { linkedin: "#", instagram: "#", email: "aria@digitalizeu.com" },
     achievements: ["50+ CRM Systems Built", "30h/wk Saved Per Client", "99% Client Retention"],
     gradient: "from-violet-600 to-pink-500",

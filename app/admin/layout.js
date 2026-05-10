@@ -47,9 +47,16 @@ export default function AdminLayout({ children }) {
           isSidebarOpen ? "w-64" : "w-20"
         )}
       >
-        <div className="h-24 flex items-center px-8 border-b border-border shrink-0">
-          <Link href="/admin/dashboard" className="text-2xl font-black tracking-tighter text-foreground">
-            {isSidebarOpen ? "AGENCY." : "A."}
+        <div className="h-24 flex items-center px-6 border-b border-border shrink-0">
+          <Link href="/admin/dashboard" className="flex items-center gap-2 group">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg group-hover:shadow-primary/40 transition-shadow shrink-0">
+              <span className="text-white text-xs font-black">D</span>
+            </div>
+            {isSidebarOpen && (
+              <span className="text-xl font-black tracking-tight text-foreground whitespace-nowrap">
+                DIGITALIZE<span className="gradient-text">U</span>
+              </span>
+            )}
           </Link>
         </div>
 
